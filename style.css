@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+
+}
+.navbar{
+    height: 60px;
+    background-color:#233448;
+    color: white;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.navlogo{
+    height: 50px;
+    width: 100px;
+}
+
+
+
+.logo{
+    background-image: url("download.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.border{
+    border:2px solid transparent ;
+    border-radius: 2%;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+
+.dilever{
+    color: #cccccc;
+    font-size: 1rem;
+    margin-left: 3px;
+
+
+}
+.india{
+    font-size: 1rem; 
+    margin-left: 3px;
+}
+.addicon{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+    text-align: center;
+
+}
+
+.search:hover{
+    border:2px solid #febd68;
+
+}
+.select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius :4px; 
+    border-bottom-left-radius :4px;
+    border: none;
+}
+
+
+.inputbar{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.searchicon{
+    background-color: #febd68;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    border-top-right-radius :4px; 
+    border-bottom-right-radius :4px;
+    color: #233448;
+
+}
+span{
+    font-size: 0.7rem;
+
+
+}
+.account{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.cart i{
+    font-size: 35px;
+}
+.cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+.panel{
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40px;
+    display: flex;
+
+}
+.paneloption p{
+    display: inline;
+    margin-left: 15px;
+}
+.paneloption{
+    width: 70% ;
+    font-size: 0.85rem;
+    margin-left: 10px;
+}
+
+.deals{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+
+.homeimg{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    background-image: url("Jupiter25_H1_Prime_PC_1_1x._CB801793304_.jpg");
+}
+
+.homeimgtext{
+    background-color: white;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 30px;
+    
+
+}
+.i{
+    width: 23%;
+    height: 300px;    
+
+    background-color: white;
+}
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(255, 68, 0);
+    gap: 20px;
+    padding: 20px;
+
+}
+.grid{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+
+}
+.P{
+    margin-left: 10px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    
+
+    width: 150px;
+    height: 120px;
+
+}
+
+
+.image4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-image: url('bfff1e35-64a0-442d-b3ec-254d5b681e32.jpg');
+background-size: cover;
+}
+.p9{
+    background-size: 100%;
+    background-image: url('PC_QuadCard_Boult_0.5x._SY116_CB553870684_.jpg');
+}
+.p10{
+    background-size: 100%;
+    background-image: url('PC_QuadCard_Noise_0.5x._SY116_CB553870684_.jpg');
+}
+.p11{
+    background-size: 100%;
+    background-image: url('PC_QuadCard_boAt_0.5x._SY116_CB553870684_.jpg');
+}
+.p12{
+    background-size: 100%;
+    background-image: url('PC_QuadCard_Zeb_0.5x_1._SY116_CB570220221_.jpg');
+
+}

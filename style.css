@@ -220,3 +220,85 @@ background-size: cover;
     background-image: url('PC_QuadCard_Zeb_0.5x_1._SY116_CB570220221_.jpg');
 
 }
+.footer{
+    background-color: blue;
+    height: 500px;
+}
+.panel1{
+    background-color: #233448;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    height: 330px;
+    width: 25%;
+    background-color: #222f3d;
+    color: white;
+    text-align: center;
+    font-weight:3px;
+}
+
+.panel2{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+#heading{
+    padding-top: 20px;
+    font-weight: 700;
+}
+
+.text{
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px; 
+}
+ul{
+    word-wrap:break-word;
+    white-space:pre-line;
+}
+
+.panel3{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #233448;
+    height: 70px;
+    gap: 3px;
+    .logo{
+        margin-right: 30px;
+        
+    }
+}
+
+.english{
+    color: white;
+    font-size: 14px;
+    border: 2px solid white;
+    border-radius: 3px;
+    width: 100px;
+}
+.india{
+    font-size: 14px;
+    width: 70px;
+    border: 2px solid white;
+    border-radius: 3px;
+    color: white;
+
+}
+.panel4{
+    height: 200px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: pre-line;
+}
